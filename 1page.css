@@ -1,5 +1,11 @@
-body {
-background-image: url("estadio.jpg");
-background-repeat: no-repeat;
-background-size: 100% auto;
+#main, #videos {
+  background-image: url("estadio.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#jugadores {
+  background-image: url("fondo_players.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
