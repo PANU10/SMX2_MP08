@@ -1,9 +1,19 @@
 #main, #videos {
   background-image: url("estadio.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size:100% auto;
+  margin: 0;
 }
 
+.logo-menu {
+  float: right;
+  margin-right: 5px;
+
+}
+
+#edit-row {
+
+}
 #jugadores {
   background-image: url("fondo_players.jpeg");
   background-repeat: no-repeat;
@@ -15,10 +25,48 @@
 
 float: right;
 max-width: none;
+width: 456px;
+height: 924px;
 }
+#Neymar img {
+  width: 456px;
+  height: 924px;
+}
+
 #Messi {
-float: right;
+float: left;
+max-width: none;
+}
 
+#Messi img {
 
+  width: 456px;
+  height: 924px;
+}
+#vs img {
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555555;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: Border;
+}
+
+li a:hover {
+    background-color: #199;
 }
