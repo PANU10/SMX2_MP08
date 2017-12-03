@@ -1,4 +1,4 @@
-#main, #videos {
+#main, #submenu {
   background-image: url("estadio.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -8,7 +8,6 @@
 .logo-menu {
   float: right;
   margin-right: 5px;
-
 }
 
 #jugadores {
@@ -28,7 +27,7 @@ height: 924px;
 float: left;
 margin: auto;
 width: 456px;
-height: 924px;
+height: 1000px;
 }
 #vs img {
   position:fixed;
@@ -39,28 +38,62 @@ height: 924px;
   margin-left:-150px;
   margin-top:-100px;
   }
-
-
-ul {
+#main ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #444;
 }
-
-li {
+#main li {
     float: left;
 }
-
-li a {
+#main li a {
     display: block;
     color: orange;
     text-align: center;
     padding: 16px 22px;
     text-decoration: Border;
 }
+#main li a:hover {
+    background-color: #222222;
+}
 
-li a:hover {
-    background-color: #199;
+#submenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9878;
+}
+#submenu li {
+    float: left;
+}
+#submenu li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: Border;
+}
+#submenu li a:hover {
+    background-color: #7166;
+}
+
+#neymar_body {
+  background-image: url("menu_neymar.jpg");
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  margin: 0;
+}
+#video1, #video2 {
+  float: right;
+  margin-right: 0;
+}
+
+#messi_body {
+  background-image: url("menu_messi.jpg");
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  margin: 0;
 }
