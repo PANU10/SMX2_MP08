@@ -11,48 +11,42 @@
 
 }
 
-#edit-row {
-
-}
 #jugadores {
   background-image: url("fondo_players.jpeg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-attachment: fixed;
 }
-
-
 #Neymar {
-
 float: right;
-max-width: none;
+margin: auto;
 width: 456px;
 height: 924px;
-}
-#Neymar img {
-  width: 456px;
-  height: 924px;
 }
 
 #Messi {
 float: left;
-max-width: none;
-}
-
-#Messi img {
-
-  width: 456px;
-  height: 924px;
+margin: auto;
+width: 456px;
+height: 924px;
 }
 #vs img {
+  position:fixed;
+  width:300px;
+  height:200px;
+  left:50%;
+  top:50%;
+  margin-left:-150px;
+  margin-top:-100px;
+  }
 
-}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555555;
+    background-color: #444;
 }
 
 li {
