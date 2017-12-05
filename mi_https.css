@@ -1,0 +1,19 @@
+#head {
+font-style: oblique;
+float: none;
+}
+.tabla {
+  border: 1px solid;
+  width: 932px;
+  height: 317;
+  border-collapse: collapse;
+}
+.tabla td {
+  text-align: center;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+}
+.left {
+  text-align: left;
+}
