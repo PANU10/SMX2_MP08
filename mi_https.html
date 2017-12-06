@@ -38,9 +38,7 @@ En esta actividad se probarán las características de diferentes páginas web. 
 <div>
 <table class="tabla">
     <tr>
-      <div id="pagina_left">
-        <th> Paginás: </th>
-      </div>
+    <th style="text-align: left;"><strong>Paginás</strong></th>
     <th> HTTP/HTTPS </th>
     <th> Versión </th>
     <th> Solicitues </th>
@@ -54,103 +52,106 @@ En esta actividad se probarán las características de diferentes páginas web. 
 
 
 <tr>
-<td class="left">elpuig.xeill.net </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+<td style="text-align: left;"><strong>elpuig.xeill.net</strong></td>
+<td> HTTPS </td>
+<td> HTTP/1.1</td>
+<td> http://elpuig.xeill.net/</td>
+<td> 5,61 s</td>
+<td> Zope/(2.13.20, python 2.7.3, linux2) ZServer/1.1</td>
+<td> gzip</td>
+<td> max-age=15768000</td>
+</tr>
+
+
+<tr>
+<td style="text-align: left;"><strong>ru.wikipwdia.org</strong> </td>
+<td>HTTPS </td>
+<td>HTTP/2.0 </td>
+<td>https://ru.wikipedia.org/wiki/Заглавная_страница </td>
+<td> 2,18 min</td>
+<td> mw1261.eqiad.wmnet</td>
+<td> gzip</td>
+<td> max-age=106384710; includeSubDomains; preload</td>
+</tr>
+
+<tr>
+  <td style="text-align: left;"><strong>elpais.com</strong> </td>
+
+
+<td> HTTPS</td>
+<td> HTTP/2.0</td>
+<td> http://elpais.com/</td>
+<td> 25 min</td>
+<td> nginx/1.3.5 epet/0.8.0.2</td>
+<td> gzip</td>
 <td> </td>
 </tr>
 
 
 <tr>
-<td> ru.wikipwdia.org </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+  <td style="text-align: left;"><strong>www.lavanguardia.com</strong> </td>
+
+<td> HTTP </td>
+<td> HTTP/1.1</td>
+<td> http://www.lavanguardia.com/</td>
+<td> 1,13 min</td>
+<td> nginx</td>
+<td> gzip</td>
 <td> </td>
 </tr>
 
 
 <tr>
-<td> elpais.com </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+  <td style="text-align: left;"><strong>www.youtube.com</strong> </td>
+
+<td> HTTPS</td>
+<td> HTTP/2.0</td>
+<td> https://www.youtube.com/</td>
+<td> 42,06 s</td>
+<td> YouTube Frontend Proxy</td>
+<td> br</td>
+<td> max-age=31536000</td>
+</tr>
+
+
+<tr>
+  <td style="text-align: left;"><strong>h2o.examp1e.net</strong> </td>
+
+<td> HTTPS</td>
+<td> HTTP/2.0</td>
+<td> https://h2o.examp1e.net/</td>
+<td> 38,18 s</td>
+<td> h2o/2.3.0-DEV</td>
+<td> (acepted) gzip, deflate, br</td>
 <td> </td>
 </tr>
 
 
 <tr>
-<td> www.lavanguardia.com </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+  <td style="text-align: left;"><strong>caddyserver.com</strong> </td>
+
+<td> HTTPS</td>
+<td> HTTP/2.0</td>
+<td> https://caddyserver.com/</td>
+<td> 1,80 s</td>
+<td> Caddy</td>
+<td> gzip</td>
+<td> max-age=31536000</td>
 </tr>
-
-
-<tr>
-<td> www.google.es </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-
-
-<tr>
-<td> www.youtube.com </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-
-
-<tr>
-<td> h2o.exampl1e.net </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-
-
-<tr>
-<td> caddyserver.com </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-
 </table>
-
 </div>
+
+
+<div>
+<h3 style="color:red;">
+ Utilice las herramientas del desarrollador de Chromium para: </h4>
+</h3>
+<div>
+  <ul>
+    <li> Activar el soporte para QUIC en la URL: chrome://flags/#enable-quic </li>
+
+  </ul>
+  </div>
 
 
 

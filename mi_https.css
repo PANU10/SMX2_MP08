@@ -4,16 +4,21 @@ float: none;
 }
 .tabla {
   border: 1px solid;
-  width: 932px;
+  width: auto;
   height: 317;
   border-collapse: collapse;
 }
 .tabla td {
   text-align: center;
   border: 1px solid;
-  margin: 0;
-  padding: 0;
+  margin: inherit;
+  padding: 7px;
+
 }
-.left {
-  text-align: left;
+
+.tabla th {
+text-align: center;
+border: 5px solid;
+margin: auto;
+padding: 15px;
 }
