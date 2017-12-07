@@ -22,3 +22,84 @@ border: 5px solid;
 margin: auto;
 padding: 15px;
 }
+#color_ab {
+float: none;
+font-family: sans-serif;
+color: white;
+border: 1px solid black;
+margin-top: auto;
+margin-right: 1000px;
+margin-left: 10px;
+background-color: black;
+text-align: center;
+}
+
+#espacio {
+  margin-top: 50px;
+}
+.tabla1 {
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  border-collapse: collapse;
+}
+.tabla1 td {
+  text-align: center;
+  border: 1px solid;
+  margin: inherit;
+  padding: 7px;
+
+}
+
+.tabla1 th {
+text-align: left;
+border: 5px solid;
+padding-left: 10px;
+padding-right: 50px;
+}
+
+#espacio1 {
+  margin-top: 20px;
+}
+
+.tabla2 {
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  border-collapse: collapse;
+}
+.tabla2 td {
+  text-align: center;
+  border: 1px solid;
+  margin: inherit;
+  padding: 7px;
+
+}
+
+.tabla2 th {
+text-align: left;
+border: 5px solid;
+padding-left: 10px;
+padding-right: 50px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+#espacio3, #espacio5 {
+  margin-top: 60px;
+}
+#espacio6, #espacio9,{
+
+line-height: 1.5em;
+}
+#espacio8,  {
+line-height: 1.8em;
+}
+#espacio4 {
+  margin-top: 70px;
+  line-height: 1.6em;
+}
+#espacio_the_end {
+text-align: center;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
