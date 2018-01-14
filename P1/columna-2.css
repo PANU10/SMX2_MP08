@@ -23,20 +23,28 @@ margin-right: 10px;
 }
 
 #content {
-   width: 69%;
+   width: 68%;
    float: left;
    border: 1px solid red;
    margin-top: 1.5%;
+   padding: 1%;
  }
-
+#imagen-hawai{
+  align: right;
+}
 #right-menu {
    width: 29%;
    float: right;
    border: 1px solid red;
-   margin-top: 1.5%
+   margin-top: 1.5%;
 
  }
-
+#right-menu-center {
+  align-items: : center;
+}
+#producción{
+  color: blue;
+}
 #footer { }
 
 .footer-column {
@@ -46,21 +54,4 @@ margin-right: 10px;
 
 img {
   max-width: 100%;
-}
-
-.img-post {
-   width: 30%;
-   padding: 5px;
-   border: 1px
-   solid #dadada; }
-
-.img-post-right {
-  float: right;
-}
-.img-post-left {
-  float: left;
-}
-
-.clearfix {
-  clear: both;
 }
