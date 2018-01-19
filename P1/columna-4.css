@@ -27,20 +27,28 @@ margin-right: 10px;
    border: 1px solid red;
    margin-top: 1.5%;
    padding-top: 1%;
-   padding-bottom: 0.8%;
+   padding-bottom: 1.8222%;
    padding-right: 1%;
  }
 #imagen-hawai{
   align: right;
 }
 #right-menu {
-   width: 30%;
+   width: 15%;
    float: right;
    border: 1px solid red;
    margin-top: 1.5%;
    display: block;
 
  }
+ #right-menu-2 {
+    width: 15%;
+    float: right;
+    border: 1px solid red;
+    margin-top: 1.5%;
+    display: block;
+
+  }
 #right-menu-center {
   align-items: : center;
 }
@@ -65,3 +73,4 @@ img {
 }
 
 .clearfix { clear: both; }
+columna

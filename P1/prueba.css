@@ -16,29 +16,38 @@
 #content-wrapper {
 margin-left: 10px;
 margin-right: 10px;
+overflow: hidden;
+position: relative;
+width: 100%;
+}
 
+.scroll {
+  width: 540px;
+  height: 270px;
+  overflow-y: scroll;
 }
-#imagen-hawai {
-  float: right;
-}
+
 #content {
-   width: 70%;
+   width: 68%;
    float: left;
    border: 1px solid red;
    margin-top: 1.5%;
-   padding-top: 1%;
-   padding-bottom: 0.8%;
-   padding-right: 1%;
+   padding: 1%;
+   height: 100%;
  }
 #imagen-hawai{
-  align: right;
+  float: right;
 }
 #right-menu {
-   width: 30%;
+  display: block;
    float: right;
    border: 1px solid red;
    margin-top: 1.5%;
-   display: block;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 30%;
 
  }
 #right-menu-center {
@@ -48,20 +57,22 @@ margin-right: 10px;
   color: blue;
 }
 #footer {
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
  }
 
 .footer-column {
-  width: 33.3333%;
+  width: 33.3%;
   float: left;
-  margin-top: 20px;
+  border: solid blue 1px;
   background-color: yellow;
-  border: 1px solid blue;
-  padding: 5px;
 
 }
+
 img {
-  border-style: solid;
-  border-color: blue;
+  max-width: 100%;
+  float: right;
 }
 
 .clearfix { clear: both; }
