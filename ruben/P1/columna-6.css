@@ -1,26 +1,67 @@
 *{ box-sizing: border-box;}
-#main-wrapper {
+@keyframes main-wrapper {
+    from {background-color: green;}
+    to {background-color: yellow;}
+}
+@keyframes quare {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+#main-wrapper{
+  background-color: yellow;
+   animation-name: main-wrapper;
+   animation-duration: 6s;
+   animation-fill-mode: backwards;
 }
 
 #header {
+  padding: 1%;
   text-align: center;
   border: solid;
-  padding: 1%;
-
 }
 #main-menu {
   width: 50%;
   float: left;
+
 }
+#main-menu-from{}
 
 #content-wrapper {
-margin-left: 10px;
-margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+#imagen-hawai img{
+   max-width: 100%;
 }
+
 #imagen-hawai {
-  float: right;
+   float: right;
+   width: 200px;
 }
+
+#imagen-hawai:hover{
+  position: relative;
+  animation-name: quare;
+  animation-duration: 6s;
+}
+
+#imagen-hawai:hover #hw0 {
+  display: none;
+}
+
+#imagen-hawai:hover #hw1 {
+  display: block;
+}
+
+#hw0 { display: block; }
+#hw1 { display: none; }
+
 #content {
    width: 70%;
    float: left;
@@ -32,9 +73,6 @@ margin-right: 10px;
    padding-left: 1%;
 
  }
-#imagen-hawai{
-  align: right;
-}
 #right-menu {
    width: 15%;
    float: left;
@@ -73,6 +111,11 @@ img {
   border-style: solid;
   border-color: blue;
 }
+#runner {
+  margin-top: 10%;
+  width: 266.666px;
+  height: 200px;
+  background: url("runner.jpg");
+}
 
 .clearfix { clear: both; }
-columna
