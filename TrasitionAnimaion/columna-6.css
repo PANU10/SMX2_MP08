@@ -111,11 +111,20 @@ img {
   border-style: solid;
   border-color: blue;
 }
+@keyframes runner {
+100% { background-position: -1393px;}
+}
+
+@keyframes slide {
+100% {margin-right: -319px;}
+}
 #runner {
   margin-top: 10%;
-  width: 266.666px;
-  height: 200px;
-  background: url("runner.jpg");
+  width: 278.6px;
+  height: 319px;
+  background: url("runner4.png");
+  animation: runner 1s steps(5) infinite, slide 4s steps(100) infinite;
+  margin-right: 100%;
 }
 
 .clearfix { clear: both; }
