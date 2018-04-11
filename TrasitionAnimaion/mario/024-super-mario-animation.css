@@ -1,0 +1,53 @@
+* { box-sizing: border-box;}
+
+.ground {
+
+}
+
+@keyframes suelo {
+  100% { background-position: -3000px; }
+}
+
+.background {
+	padding: 100px;
+  width: 1000px;
+  height: 800px;
+  border: thin solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 9%;
+}
+
+.ground {
+  background-image: url("Suelo.png");
+  animation: suelo 18s steps(1000) infinite forwards;
+  width: 1680px;
+  height: 113px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes mario {
+100% { background-position: -1393px;}
+}
+
+@keyframes slide {
+100% {margin-right: -319px;}
+}
+
+.mario-sprite {
+  width: 32.125px;
+  height: 29px;
+  position: relative;
+  background: url("mario-sprite.png");
+  animation: mario 1s steps(5) infinite, slide 4s steps(100) infinite;
+}
+
+.monster {
+
+}
