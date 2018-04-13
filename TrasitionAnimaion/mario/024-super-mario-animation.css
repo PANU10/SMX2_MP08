@@ -9,6 +9,7 @@
 }
 
 .background {
+  background-image: url("sky.png");
 	padding: 100px;
   width: 1000px;
   height: 800px;
@@ -41,13 +42,18 @@
 }
 
 .mario-sprite {
-  width: 32.125px;
+  width: 32.50px;
   height: 29px;
   position: relative;
-  background: url("mario-sprite.png");
-  animation: mario 1s steps(5) infinite, slide 4s steps(100) infinite;
+  background: url("mario_gif.gif");
+  animation: mario 1s steps(5) infinite, slide 2s steps(100) infinite;
+bottom: -527px;
 }
 
 .monster {
+background: url("MONSTER.png");
+height: 100%;
+width: 100%;
+position: absolute;
 
 }
