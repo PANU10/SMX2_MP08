@@ -1,59 +1,66 @@
-* { box-sizing: border-box;}
-
-.ground {
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
 
 @keyframes suelo {
-  100% { background-position: -3000px; }
+  100% { background-position: -3000px 0px; }
 }
 
 .background {
   background-image: url("sky.png");
-	padding: 100px;
-  width: 1000px;
-  height: 800px;
-  border: thin solid black;
-  position: relative;
-  overflow: hidden;
-  border-radius: 25px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
-  margin-bottom: 9%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
 }
 
 .ground {
   background-image: url("Suelo.png");
   animation: suelo 18s steps(1000) infinite forwards;
-  width: 1680px;
+  width: 100%;
   height: 113px;
   position: absolute;
   bottom: 0;
   left: 0;
+
 }
 
 @keyframes mario {
-100% { background-position: -1393px;}
+100% { background-position: -1393px 0px;}
 }
 
 @keyframes slide {
-100% {margin-right: -319px;}
+100% {margin-left: 1850px;}
 }
 
 .mario-sprite {
-  width: 32.50px;
-  height: 29px;
+  width: 280px;
+  height: 340px;
   position: relative;
-  background: url("mario_gif.gif");
-  animation: mario 1s steps(5) infinite, slide 2s steps(100) infinite;
-bottom: -527px;
+  background: url("sprite_new.png");
+  animation: mario 1s steps(5) infinite, slide 7s steps(1000) infinite;
+  bottom: -510px;
+  left: -200px;
+}
+@keyframes slide-left {
+  100% { margin-right: 2024px; }
 }
 
-.monster {
-background: url("MONSTER.png");
-height: 100%;
-width: 100%;
-position: absolute;
-
+@keyframes down-up {
+  50% { margin-top: 100px;}
+  100% { margin-top: 0px; }
+}
+.cloud {
+  background-image: url("NUBE3.png");
+  width: 296px;
+  height: 159px;
+  bottom: 700px;
+  right: -200px;
+  position: absolute;
+  animation: slide-left 10s steps(1000) infinite forwards, down-up 10s steps(1000) infinite forwards;
 }
