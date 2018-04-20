@@ -12,22 +12,25 @@
 }
 
 .background {
-  background-image: url("sky.png");
-  width: 100%;
-  height: 100%;
+  background-image: url("animated-fondo.gif");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
+  overflow: hidden;
 
 }
 
 .ground {
   background-image: url("Suelo.png");
-  animation: suelo 18s steps(1000) infinite forwards;
+  animation: suelo 18s steps(1000) 3s infinite forwards;
   width: 100%;
   height: 113px;
   position: absolute;
   bottom: 0;
   left: 0;
-
+  opacity: 0.6;
 }
 
 @keyframes mario {
@@ -43,24 +46,30 @@
   height: 340px;
   position: relative;
   background: url("sprite_new.png");
-  animation: mario 1s steps(5) infinite, slide 7s steps(1000) infinite;
+  animation: mario 1s steps(5) infinite, slide 10s steps(1000) infinite;
   bottom: -510px;
   left: -200px;
+
 }
 @keyframes slide-left {
   100% { margin-right: 2024px; }
 }
 
-@keyframes down-up {
-  50% { margin-top: 100px;}
-  100% { margin-top: 0px; }
-}
 .cloud {
-  background-image: url("NUBE3.png");
-  width: 296px;
-  height: 159px;
-  bottom: 700px;
+  background-image: url("dark_cloud_night_.png");
+  width: 442px;
+  height: 200px;
+  bottom: 800px;
   right: -200px;
   position: absolute;
-  animation: slide-left 10s steps(1000) infinite forwards, down-up 10s steps(1000) infinite forwards;
+  animation: slide-left 10s steps(1000) infinite forwards;
+}
+.cloud-2 {
+  background-image: url("nubes14.png");
+  width: 442px;
+  height: 342px;
+  bottom: 500px;
+  right: -400px;
+  position: absolute;
+  animation: slide-left 10s steps(1000) 2s infinite forwards;
 }
