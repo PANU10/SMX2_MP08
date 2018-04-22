@@ -73,3 +73,10 @@
   position: absolute;
   animation: slide-left 10s steps(1000) 2s infinite forwards;
 }
+.dark-night{
+background-image: url("logo_moon.png");
+width: 184px;
+height: 104px;
+margin-left: 45%;
+margin-top: 0%;
+}
