@@ -30,7 +30,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 @keyframes mario {
@@ -72,11 +72,25 @@
   right: -400px;
   position: absolute;
   animation: slide-left 10s steps(1000) 2s infinite forwards;
+
 }
 .dark-night{
 background-image: url("logo_moon.png");
 width: 184px;
 height: 104px;
-margin-left: 45%;
-margin-top: 0%;
+margin-left: 48%;
+position: absolute;
+top: 140px;
+opacity: 0.1;
+}
+
+.rain {
+  background-image: url("lluvia.png");
+  position: absolute;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.2;
 }
