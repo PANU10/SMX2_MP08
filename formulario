@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+    <div>
+      <form class="contact_us">
+          <p><label for="Nom">Nom: </label><input type="text" placeholder="el teu nom" required></p>
+          <p><label for="Cognom">Cognom: </label><input type="text" placeholder="el teu cognom" required></p>
+          <p><label for="Edad">Edad: </label><input type="number" placeholder="edad" required></p>
+          <p></p>
+
+          <div class="puntos1">
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+            <input type="radio" name="curso" value="dam" checked="checked"/> DAM <br/>
+            <input type="radio" name="curso" value="asix" /> ASIX <br/>
+            <input type="radio" name="curso" value="altre" /> altres.
+          </div>
+
+          <div class="puntos">
+            <p>Marca les teves aficions: </p>
+            <input type="radio" name="c" value="estudiar" checked="checked" /> Estudiar <br/>
+            <input type="radio" name="c" value="asixs" /> ASIX <br/>
+            <input type="radio" name="c" value="libre" /> Libres<br/>
+            <input type="radio" name="c" value="jugar" /> Jugar a Magic<br/>
+            <input type="radio" name="c" value="Fer" /> Fer burilles
+          </div>
+
+          <div class="textarea">
+            <p>altres<textarea name="textarea" rows="10" cols="50">Especifica quines</textarea></p>
+          </div>
+
+          <p>L'estàndrad d'HTML que més m'agrada:
+            <select id="so" name="so"></p>
+            <option value="html">HTML</option>
+            <option value="html_4.01">HTML 4.01</option>
+            <option value="xhtml_1.0">XHTML_1.0</option>
+          </select>
+      </form>
+    </div>
+
+  </body>
+</html>
